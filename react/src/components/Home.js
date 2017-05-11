@@ -1,6 +1,6 @@
 import React, { Component }  from 'react';
 
-class App extends Component {
+class Home extends Component {
   constructor(props) {
     super(props);
   }
@@ -10,10 +10,10 @@ class App extends Component {
 
     return(
       <div>
-        dope
+        Conquer a Mountain!
       </div>
     )
   }
 }
 
-export default App;
+export default Home;
