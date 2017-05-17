@@ -2,289 +2,337 @@
   {
     "name":"Washington",
     "elevation":"6288",
-    "lat":"",
-    "long":""
+    "lat":"44.2706",
+    "long":"-71.3033",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Adams",
     "elevation":"5774",
-    "lat":"",
-    "long":""
+    "lat":"44.3203",
+    "long":"-71.2909",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Jefferson",
     "elevation":"5712",
-    "lat":"",
-    "long":""
+    "lat":"44.3045",
+    "long":"-71.3176",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Monroe",
     "elevation":"5384",
-    "lat":"",
-    "long":""
+    "lat":"44.2556",
+    "long":"-71.3220",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Madison",
     "elevation":"5367",
-    "lat":"",
-    "long":""
+    "lat":"44.3284",
+    "long":"-71.2779",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Lafayette",
     "elevation":"5260",
-    "lat":"",
-    "long":""
+    "lat":"44.1607",
+    "long":"-71.6445",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Lincoln",
     "elevation":"5089",
-    "lat":"",
-    "long":""
+    "lat":"44.1490",
+    "long":"-71.6445",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"South Twin",
     "elevation":"4902",
-    "lat":"",
-    "long":""
+    "lat":"44.1876",
+    "long":"-71.5548",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Carter Dome",
     "elevation":"4832",
-    "lat":"",
-    "long":""
+    "lat":"44.2673",
+    "long":"-71.1790",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Moosilauke",
     "elevation":"4802",
-    "lat":"",
-    "long":""
+    "lat":"44.0245",
+    "long":"-71.8309",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Eisenhower",
     "elevation":"4780",
-    "lat":"",
-    "long":""
+    "lat":"44.2403",
+    "long":"-71.3504",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"North Twin",
     "elevation":"4761",
-    "lat":"",
-    "long":""
+    "lat":"44.2026",
+    "long":"-71.5579",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Carrigain",
     "elevation":"4700",
-    "lat":"",
-    "long":""
+    "lat":"44.0945",
+    "long":"-71.4474",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Bond",
     "elevation":"4698",
-    "lat":"",
-    "long":""
+    "lat":"44.1528",
+    "long":"-71.5312",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Middle Carter",
     "elevation":"4610",
-    "lat":"",
-    "long":""
+    "lat":"44.3031",
+    "long":"-71.1673",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"West Bond",
     "elevation":"4540",
-    "lat":"",
-    "long":""
+    "lat":"44.1546",
+    "long":"-71.5436",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Garfield",
     "elevation":"4500",
-    "lat":"",
-    "long":""
+    "lat":"44.1870",
+    "long":"-71.6109",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Liberty",
     "elevation":"4459",
-    "lat":"",
-    "long":""
+    "lat":"44.1159",
+    "long":"-71.6420",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"South Carter",
     "elevation":"4430",
-    "lat":"",
-    "long":""
+    "lat":"44.2898",
+    "long":"-71.1762",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Wildcat",
     "elevation":"4422",
-    "lat":"",
-    "long":""
+    "lat":"44.2590",
+    "long":"-71.2015",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Hancock",
     "elevation":"4420",
-    "lat":"",
-    "long":""
+    "lat":"44.0837",
+    "long":"-71.4937",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"South Kinsman",
     "elevation":"4358",
-    "lat":"",
-    "long":""
+    "lat":"44.1230",
+    "long":"-71.7367",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Field",
     "elevation":"4340",
-    "lat":"",
-    "long":""
+    "lat":"44.1962",
+    "long":"-71.4345",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Osceola",
     "elevation":"4340",
-    "lat":"",
-    "long":""
+    "lat":"44.0015",
+    "long":"-71.5359",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Flume",
     "elevation":"4328",
-    "lat":"",
-    "long":""
+    "lat":"44.1090",
+    "long":"-71.6279",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"South Hancock",
     "elevation":"4319",
-    "lat":"",
-    "long":""
+    "lat":"44.0732",
+    "long":"-71.4871",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Pierce",
     "elevation":"4310",
-    "lat":"",
-    "long":""
+    "lat":"44.2265",
+    "long":"-71.3659",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"North Kinsman",
     "elevation":"4293",
-    "lat":"",
-    "long":""
+    "lat":"44.1335",
+    "long":"-71.7369",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Willey",
     "elevation":"4285",
-    "lat":"",
-    "long":""
+    "lat":"44.1837",
+    "long":"-71.4215",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Bondcliff",
     "elevation":"4265",
-    "lat":"",
-    "long":""
+    "lat":"44.1407",
+    "long":"-71.5407",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Zealand",
     "elevation":"4260",
-    "lat":"",
-    "long":""
+    "lat":"44.1797",
+    "long":"-71.5213",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"North Tripyramid",
     "elevation":"4180",
-    "lat":"",
-    "long":""
+    "lat":"44.9733",
+    "long":"-71.4428",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Cabot",
     "elevation":"4170",
-    "lat":"",
-    "long":""
+    "lat":"44.5062",
+    "long":"-71.4156",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"East Osceola",
     "elevation":"4156",
-    "lat":"",
-    "long":""
+    "lat":"44.0057",
+    "long":"-71.5202",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Middle Tripyramid",
     "elevation":"4140",
-    "lat":"",
-    "long":""
+    "lat":"44.9647",
+    "long":"-71.4401",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Cannon",
     "elevation":"4100",
-    "lat":"",
-    "long":""
+    "lat":"44.1565",
+    "long":"-71.6984",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Hale",
     "elevation":"4054",
-    "lat":"",
-    "long":""
+    "lat":"44.2217",
+    "long":"-71.5120",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Jackson",
     "elevation":"4052",
-    "lat":"",
-    "long":""
+    "lat":"44.2031",
+    "long":"-71.3742",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Tom",
     "elevation":"4051",
-    "lat":"",
-    "long":""
+    "lat":"44.2103",
+    "long":"-71.4459",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Wildcat, D Peak",
     "elevation":"4050",
-    "lat":"",
-    "long":""
+    "lat":"44.2492",
+    "long":"-71.2236",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Moriah",
     "elevation":"4049",
-    "lat":"",
-    "long":""
+    "lat":"44.3403",
+    "long":"-71.1315",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Passaconaway",
     "elevation":"4043",
-    "lat":"",
-    "long":""
+    "lat":"44.9548",
+    "long":"-71.3815",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Owl's Head",
     "elevation":"4025",
-    "lat":"",
-    "long":""
+    "lat":"44.1444",
+    "long":"-71.6050",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Galehead",
     "elevation":"4024",
-    "lat":"",
-    "long":""
+    "lat":"44.1853",
+    "long":"-71.5737",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Whiteface",
     "elevation":"4020",
-    "lat":"",
-    "long":""
+    "lat":"44.6526",
+    "long":"-71.1090",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Waumbek",
     "elevation":"4006",
-    "lat":"",
-    "long":""
+    "lat":"44.4328",
+    "long":"-71.4170",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Isolation",
     "elevation":"4004",
-    "lat":"",
-    "long":""
+    "lat":"44.2148",
+    "long":"-71.3092",
+    "group":"New Hampshire 4000 footers"
   },
   {
     "name":"Tecumseh",
     "elevation":"4003",
-    "lat":"",
-    "long":""
+    "lat":"43.9673",
+    "long":"-71.5581",
+    "group":"New Hampshire 4000 footers"
   }
 ]

@@ -10,10 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170510190717) do
+ActiveRecord::Schema.define(version: 20170511202302) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "mountains", force: :cascade do |t|
+    t.string  "name",      null: false
+    t.integer "elevation", null: false
+    t.float   "lat",       null: false
+    t.float   "long",      null: false
+    t.string  "group"
+  end
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
