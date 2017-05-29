@@ -4,10 +4,12 @@ class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      mountains: null
+      mountains: null,
+      displayedMountains: null
     };
 
     this.getMountains = this.getMountains.bind(this);
+    this.handleSearch = this.handleSearch.bind(this);
   }
 
   componentDidMount() {
@@ -28,24 +30,43 @@ class Home extends Component {
     .then(response => response.json())
     .then(body => {
       this.setState({
-        mountains: body.mountains
+        mountains: body.mountains,
+        displayedMountains: body.mountains
       });
+    });
+  }
+
+  handleSearch(event) {
+    let searchQuery = event.target.value.toLowerCase();
+    let displayedMountains = this.state.mountains.filter((el) => {
+      let searchValue = el.name.toLowerCase();
+      return searchValue.indexOf(searchQuery) !== -1;
+    });
+    this.setState({
+      displayedMountains: displayedMountains
     });
   }
 
   render() {
 
-    let mountains = this.state.mountains;
+    let mountains = this.state.displayedMountains;
     if (mountains != null){
       mountains = mountains.map((mountain, i) => {
         return (
-          <h1 key={i}>{mountain.name}</h1>
+          <div className="col-sm-6 col-md-6 col-lg-4" key={i}>
+            <div className="panel panel-default">
+              <div className="panel-body">
+                <h1>{mountain.name}</h1>
+                <h3>Elevation: {mountain.elevation}</h3>
+              </div>
+            </div>
+          </div>
         )
       })
     }
     return(
       <div>
-        Conquer a Mountain!
+        Search <input type="text" className="search-field" onChange={this.handleSearch} /><br /><br />
         {mountains}
       </div>
     )
