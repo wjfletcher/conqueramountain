@@ -58,6 +58,7 @@ class Home extends Component {
               <div className="panel-body">
                 <h1>{mountain.name}</h1>
                 <h3>Elevation: {mountain.elevation}</h3>
+                <button className="conquer-button">Conquered!</button>
               </div>
             </div>
           </div>
