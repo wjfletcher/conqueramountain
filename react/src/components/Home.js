@@ -1,11 +1,13 @@
 import React, { Component }  from 'react';
+import MountainPanel from './MountainPanel';
 
 class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
       mountains: null,
-      displayedMountains: null
+      displayedMountains: null,
+      conqueredIds: null
     };
 
     this.getMountains = this.getMountains.bind(this);
@@ -31,7 +33,8 @@ class Home extends Component {
     .then(body => {
       this.setState({
         mountains: body.mountains,
-        displayedMountains: body.mountains
+        displayedMountains: body.mountains,
+        conqueredIds: body.conqueredIds
       });
     });
   }
@@ -50,18 +53,20 @@ class Home extends Component {
   render() {
 
     let mountains = this.state.displayedMountains;
+    let conqueredIds = this.state.conqueredIds;
     if (mountains != null){
       mountains = mountains.map((mountain, i) => {
+        let panelClass = '';
+        if (conqueredIds.includes(mountain.id)) {
+          panelClass = ' conquered';
+        }
         return (
-          <div className="col-sm-6 col-md-6 col-lg-4" key={i}>
-            <div className="panel panel-default">
-              <div className="panel-body">
-                <h1>{mountain.name}</h1>
-                <h3>Elevation: {mountain.elevation}</h3>
-                <button className="conquer-button">Conquered!</button>
-              </div>
-            </div>
-          </div>
+          <MountainPanel
+            key = {i}
+            mountain = {mountain}
+            panelClass = {panelClass}
+            getMountains = {this.getMountains}
+          />
         )
       })
     }
